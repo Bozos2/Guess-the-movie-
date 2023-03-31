@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="h1-container">
+        <h1>Guess the movie</h1>
+      </div>
+      <div class="emoji-container">
+        <div class="item-set">
+          <div class="num-of-tries-left" id="chanceCount"></div>
+          <div class="emoji" id="movie-emoji"></div>
+          <form id="guess-form">
+            <input
+              type="text"
+              id="guess-input"
+              name="guess"
+              value="Enter the movie"
+              required
+            />
+            <button class="answer" type="submit">Submit</button>
+          </form>
+          <div class="current-score" id="scoreCount">Trenutni rezultat: 0</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
